@@ -228,8 +228,10 @@ else:
     print("\n==============================")
     print("FINAL SCORE:", score, "/", len(questions))
     print("==============================")
-!pip -q install gradio
 
+import subprocess
+import sys
+subprocess.run([sys.executable, "-m", "pip", "install", "-q", "gradio"])
 import gradio as gr
 
 def wikiquiz_app(topic):
