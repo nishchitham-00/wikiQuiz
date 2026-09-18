@@ -229,8 +229,6 @@ else:
     print("FINAL SCORE:", score, "/", len(questions))
     print("==============================")
 
-!pip -q install gradio
-
 import gradio as gr
 
 def wikiquiz_app(topic):
