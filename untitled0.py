@@ -11,7 +11,7 @@ Original file is located at
 
 import pandas as pd
 
-file_path = "/content/enwiki_namespace_0_00000 (1).parquet"
+file_path = "enwiki_namespace_0_00000 (1).parquet"
 
 df = pd.read_parquet(file_path)
 
